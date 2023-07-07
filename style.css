@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+*{
+    font-family: 'Audiowide',cursive;
+    font-weight: lighter;
+}
+
+html{
+    background-color: rgb(7, 7, 7);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+header{
+    text-align: center;
+    color: white;
+    height: 190px;
+    overflow: auto;
+}
+
+header::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 610px;
+    margin: auto;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+
+    box-shadow: 5px 4px 5px rgba(248, 245, 245, 0.11);
+}
+.marcador{
+    display: none;
+}
+#relogio{
+    font-weight: lighter;
+    font-size: 2.4em;
+    opacity: .8;
+}
+
+div{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.btn > button{
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.1em;
+}
+
+.marcar{
+    height: 50px;
+    width: 280px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn > button:hover,.marcar:hover{
+    opacity: .9;
+    transition: 400ms;
+    border: 1px solid blue;
+}
+
+.iniciar{
+    color: white;
+}
+
+.zerar{
+    background-color: rgba(255, 0, 0, 0.486);
+    color: white;
+}
+.apagar{
+    display: none;
+}
+
+p{
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
